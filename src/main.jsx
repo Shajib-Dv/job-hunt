@@ -6,11 +6,16 @@ import App from "./App";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Header from "./components/Header";
+import PageNotFound from "./components/PageNotFound";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Header />,
+  },
+  {
+    path: "*",
+    element: <PageNotFound />,
   },
 ]);
 
