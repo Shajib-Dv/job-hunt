@@ -1,15 +1,20 @@
 /** @format */
 
-import React, { createContext } from "react";
-import { useLoaderData } from "react-router-dom";
+import React, { createContext, useEffect, useState } from "react";
+
 import Banner from "./Banner";
 
 import JobCategory from "./JobCategory";
 import AllJobs from "./AllJobs";
 
 const JobContainer = () => {
-  const jobs = useLoaderData();
-  console.log(jobs);
+  const [jobs, setJobs] = useState([]);
+
+  useEffect(() => {
+    fetch("data.json")
+      .then((res) => res.json())
+      .then((data) => setJobs(data));
+  }, []);
   return (
     <>
       <Banner />
