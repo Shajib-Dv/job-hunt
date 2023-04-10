@@ -7,11 +7,12 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Header from "./components/Header";
 import PageNotFound from "./components/PageNotFound";
+import Home from "./Layout/Home";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Header />,
+    element: <Home />,
   },
   {
     path: "*",
