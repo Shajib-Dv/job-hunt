@@ -20,9 +20,26 @@ const AppliedJobs = () => {
     setAppliedJob(remainingJob);
   }, []);
   // console.log(appliedJob);
+  const getValue = (value) => {
+    const filteredJob =
+      appliedJob && appliedJob.filter((j) => j.remoteOrOnsite === value);
+    setAppliedJob(filteredJob);
+  };
   return (
     <>
       <h3 className="text-5xl text-center font-bold my-20">Applied job</h3>
+      <div className="text-right">
+        <select
+          onChange={(e) => getValue(e.target.value)}
+          className="select select-success w-full max-w-xs"
+        >
+          <option disabled selected>
+            Filter by
+          </option>
+          <option>Remote</option>
+          <option>Onsite</option>
+        </select>
+      </div>
       <div>
         {appliedJob &&
           appliedJob.map((job) => <AppliedJobList key={job.id} job={job} />)}
