@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <>
       <div className="card lg:card-side bg-base-100 my-20">
-        <div className="w-1/2 card-body">
+        <div className="md:w-1/2 card-body">
           <h1 className="text-7xl font-bold">
             One Step Closer To Your{" "}
             <span className="text-[#917BFF]">Dream Job</span>
@@ -19,10 +19,12 @@ const Banner = () => {
             from start to finish.
           </p>
           <div>
-            <button className="btn bg-[#917BFF]">Get Started</button>
+            <button className="btn bg-[#917BFF] outline-none border-none">
+              Get Started
+            </button>
           </div>
         </div>
-        <figure className="w-1/2">
+        <figure className="md:w-1/2">
           <Lottie animationData={client} loop={true} />
         </figure>
       </div>
