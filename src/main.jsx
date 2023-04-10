@@ -12,6 +12,7 @@ import JobContainer from "./components/JobContainer";
 import Statistic from "./components/Statistic";
 import AppliedJobs from "./components/AppliedJobs";
 import Blog from "./components/Blog";
+import { loadJobs } from "./loaders/loadJobs";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <JobContainer />,
+        loader: loadJobs,
       },
       {
         path: "statistic",
