@@ -1,0 +1,27 @@
+[
+  {
+    "id": "S001",
+    "name": "John Doe",
+    "assignments": [85, 90, 80, 92, 87, 95, 89]
+  },
+  {
+    "id": "S002",
+    "name": "Jane Smith",
+    "assignments": [75, 82, 90, 79, 84, 76, 81]
+  },
+  {
+    "id": "S003",
+    "name": "Mike Johnson",
+    "assignments": [92, 88, 91, 83, 86, 80, 94]
+  },
+  {
+    "id": "S004",
+    "name": "Sarah Lee",
+    "assignments": [77, 81, 88, 93, 80, 85, 89]
+  },
+  {
+    "id": "S005",
+    "name": "David Kim",
+    "assignments": [90, 85, 94, 82, 87, 88, 91]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "E7G2R9",
+    "companyLogo": "https://example.com/logo1.jpg",
+    "jobTitle": "Web Developer",
+    "companyName": "ABC Corporation",
+    "remoteOrOnsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "jobDescription": "We're seeking a talented web developer to join our team and help us build great websites.",
+    "jobResponsibility": "Design and develop web applications, write clean and efficient code, collaborate with cross-functional teams.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "3+ years of experience in web development.",
+    "contactInformation": {
+      "phone": "555-1234",
+      "email": "hr@abccorp.com"
+    }
+  },
+  {
+    "id": "H4J8K2",
+    "companyLogo": "https://example.com/logo2.jpg",
+    "jobTitle": "Software Engineer",
+    "companyName": "XYZ Tech",
+    "remoteOrOnsite": "Remote",
+    "location": "Anywhere",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$120,000 - $150,000",
+    "jobDescription": "We're looking for a skilled software engineer to help us develop cutting-edge software solutions.",
+    "jobResponsibility": "Design and implement software applications, write maintainable code, collaborate with cross-functional teams.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "5+ years of experience in software development.",
+    "contactInformation": {
+      "phone": "555-5678",
+      "email": "careers@xyztech.com"
+    }
+  },
+  {
+    "id": "F3B9M6",
+    "companyLogo": "https://example.com/logo3.jpg",
+    "jobTitle": "Marketing Manager",
+    "companyName": "ABC Corporation",
+    "remoteOrOnsite": "Onsite",
+    "location": "New York, NY",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "jobDescription": "We're seeking an experienced marketing manager to help us develop and implement effective marketing strategies.",
+    "jobResponsibility": "Develop and execute marketing campaigns, analyze market trends, collaborate with cross-functional teams.",
+    "educationalRequirements": "Bachelor's degree in Marketing, Business or related field.",
+    "experiences": "7+ years of experience in marketing.",
+    "contactInformation": {
+      "phone": "555-9012",
+      "email": "careers@abccorp.com"
+    }
+  },
+  {
+    "id": "K1N9T6",
+    "companyLogo": "https://example.com/logo4.jpg",
+    "jobTitle": "UX Designer",
+    "companyName": "XYZ Tech",
+    "remoteOrOnsite": "Onsite",
+    "location": "Seattle, WA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$90,000 - $120,000",
+    "jobDescription": "We're seeking a talented UX designer to help us create intuitive and engaging user experiences.",
+    "jobResponsibility": "Design and prototype user interfaces, conduct user research and testing, collaborate with",
+    "educationalRequirements": "Bachelor's degree in UX Design, Business or related field.",
+    "experiences": "7+ years of experience in UX Design.",
+    "contactInformation": {
+      "phone": "555-9012",
+      "email": "careers@abccorp.com"
+    }
+  },
+  {
+    "id": "G4H6T8",
+    "companyLogo": "https://example.com/logo1.jpg",
+    "jobTitle": "Frontend Developer",
+    "companyName": "ABC Corporation",
+    "remoteOrOnsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$90,000 - $120,000",
+    "jobDescription": "We're looking for a talented frontend developer to join our team and help us build great web applications.",
+    "jobResponsibility": "Design and develop user interfaces, write clean and efficient code, collaborate with cross-functional teams.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "3+ years of experience in frontend development.",
+    "contactInformation": {
+      "phone": "555-1234",
+      "email": "hr@abccorp.com"
+    }
+  },
+  {
+    "id": "F2J5R7",
+    "companyLogo": "https://example.com/logo2.jpg",
+    "jobTitle": "Backend Developer",
+    "companyName": "XYZ Tech",
+    "remoteOrOnsite": "Onsite",
+    "location": "New York, NY",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$100,000 - $130,000",
+    "jobDescription": "We're seeking a skilled backend developer to help us build and maintain high-performance web services.",
+    "jobResponsibility": "Design and implement scalable and secure backend systems, write clean and efficient code, collaborate with cross-functional teams.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "5+ years of experience in backend development.",
+    "contactInformation": {
+      "phone": "555-5678",
+      "email": "careers@xyztech.com"
+    }
+  },
+  {
+    "id": "D3K7T9",
+    "companyLogo": "https://example.com/logo3.jpg",
+    "jobTitle": "Product Manager",
+    "companyName": "ABC Corporation",
+    "remoteOrOnsite": "Onsite",
+    "location": "Los Angeles, CA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$120,000 - $150,000",
+    "jobDescription": "We're seeking an experienced product manager to help us develop and launch successful products.",
+    "jobResponsibility": "Define product strategy, conduct market research and analysis, collaborate with cross-functional teams.",
+    "educationalRequirements": "Bachelor's degree in Business, Marketing or related field.",
+    "experiences": "7+ years of experience in product management.",
+    "contactInformation": {
+      "phone": "555-9012",
+      "email": "careers@abccorp.com"
+    }
+  },
+  {
+    "id": "B5M7P9",
+    "companyLogo": "https://example.com/logo4.jpg",
+    "jobTitle": "Data Analyst",
+    "companyName": "XYZ Tech",
+    "remoteOrOnsite": "Remote",
+    "location": "Anywhere",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "jobDescription": "We're seeking a data analyst to help us make data-driven decisions and insights.",
+    "jobResponsibility": "Collect and analyze data, develop dashboards and reports, collaborate with cross",
+    "educationalRequirements": "Bachelor's degree in Data Analyst or related field.",
+    "experiences": "7+ years of experience in  Data Analyst.",
+    "contactInformation": {
+      "phone": "555-9012",
+      "email": "careers@abccorp.com"
+    }
+  }
+]
