@@ -34,7 +34,9 @@ const JobDetails = () => {
   } = job;
 
   const handleAddToDb = (id) => {
-    addToDb(id);
+    if (jobs) {
+      addToDb(id);
+    }
   };
   return (
     <>
