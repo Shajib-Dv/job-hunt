@@ -18,9 +18,9 @@ const AllJobs = ({ job }) => {
 
   return (
     <>
-      <div className="card card-compact w-full bg-base-100 shadow-xl">
-        <figure>
-          <img className="w-full h-64" src={companyLogo} alt="company logo" />
+      <div className="card card-compact w-4/5 mx-auto md:w-full bg-base-100  shadow-xl">
+        <figure className="w-full rounded-md h-64">
+          <img className="w-full" src={companyLogo} alt="company logo" />
         </figure>
         <div className="card-body gap-0">
           <h2 className="card-title font-bold">{jobTitle}</h2>
@@ -45,10 +45,7 @@ const AllJobs = ({ job }) => {
           </div>
           <div>
             <Link to={`jobs/${id}`}>
-              <button
-                onClick={() => viewDetails(id)}
-                className="p-2 font-bold rounded outline-none border-none text-white mt-8 bg-[#8885FE]"
-              >
+              <button className="p-2 font-bold rounded outline-none border-none text-white mt-8 bg-[#8885FE]">
                 View Details
               </button>
             </Link>

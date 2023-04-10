@@ -25,7 +25,7 @@ const JobContainer = () => {
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>
-        <div className="text-black grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="text-black grid grid-cols-1 md:grid-cols-2 gap-8">
           {jobs && jobs.map((job) => <AllJobs key={job.id} job={job} />)}
         </div>
       </div>
