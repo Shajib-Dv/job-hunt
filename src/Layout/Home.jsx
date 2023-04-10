@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <div className="md:w-4/5 mx-auto">
         <Header />
-        <div className="h-[calc(100vh - 200px)]">
+        <div>
           <Outlet />
         </div>
       </div>
