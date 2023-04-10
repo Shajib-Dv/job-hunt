@@ -9,6 +9,7 @@ import {
   PhoneIcon,
   EnvelopeIcon,
 } from "@heroicons/react/24/solid";
+import { addToDb } from "../utilities/fakeDB";
 
 const JobDetails = () => {
   const jobId = useParams();
@@ -16,11 +17,12 @@ const JobDetails = () => {
   const jobs = useLoaderData();
 
   useEffect(() => {
-    const newJob = jobs.find((job) => job.id === jobId.jobId);
+    const newJob = jobs && jobs.find((job) => job.id === jobId.jobId);
     setJob(newJob);
   }, []);
 
   const {
+    id,
     jobDescription,
     jobResponsibility,
     educationalRequirements,
@@ -31,6 +33,9 @@ const JobDetails = () => {
     location,
   } = job;
 
+  const handleAddToDb = (id) => {
+    addToDb(id);
+  };
   return (
     <>
       <h2 className="text-5xl font-bold py-10 text-center">Job details</h2>
@@ -67,19 +72,22 @@ const JobDetails = () => {
           <div className="flex items-center gap-2 font-semibold">
             <PhoneIcon className="h-6 w-6 text-[#8984FE] " />
             <p className="font-bold"> Phone:</p>
-            <p className="text-gray-500"> {contactInformation.phone}</p>
+            <p className="text-gray-500"> {contactInformation?.phone}</p>
           </div>
           <div className="flex items-center gap-2 font-semibold">
             <EnvelopeIcon className="h-6 w-6 text-[#8984FE] " />
             <p className="font-bold"> Email:</p>
-            <p className="text-gray-500"> {contactInformation.email}</p>
+            <p className="text-gray-500"> {contactInformation?.email}</p>
           </div>
           <div className="flex items-center gap-2 font-semibold">
             <MapPinIcon className="h-6 w-6 text-[#8984FE] " />
             <p className="font-bold">Address:</p>
             <p className="text-gray-500"> {location}</p>
           </div>
-          <button className="w-full px-3 py-2 text-white font-semibold bg-[#8984FE] rounded-md">
+          <button
+            onClick={() => handleAddToDb(id)}
+            className="w-full px-3 py-2 text-white font-semibold bg-[#8984FE] rounded-md"
+          >
             Apply Now
           </button>
         </div>
