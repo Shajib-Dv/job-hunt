@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <div className="md:w-4/5 mx-auto">
         <Header />
-        <div>
+        <div className="min-h-[90vh]">
           <Outlet />
         </div>
       </div>
