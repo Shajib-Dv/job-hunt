@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <>
-      <div className="md:w-4/5 mx-auto">
+      <div className="">
         <Header />
         <div className="min-h-[90vh]">
           <Outlet />

@@ -45,7 +45,7 @@ const JobDetails = () => {
   return (
     <>
       <CommonPage>Job Details</CommonPage>
-      <div className="md:flex my-20">
+      <div className="md:flex my-20 md:w-4/5 mx-auto">
         <div className="md:w-3/5 space-y-3 font-semibold px-4 md:px-10">
           <p>
             <span className="font-bold text-2xl">Description: </span>

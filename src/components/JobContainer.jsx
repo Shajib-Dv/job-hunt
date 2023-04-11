@@ -17,7 +17,7 @@ const JobContainer = () => {
       .then((data) => setJobs(data));
   }, []);
   return (
-    <>
+    <div className="md:w-4/5 mx-auto">
       <Banner />
       <JobCategory />
       <div className="my-20">
@@ -43,7 +43,7 @@ const JobContainer = () => {
           )}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

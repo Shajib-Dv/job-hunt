@@ -6,7 +6,7 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="w-full">
+    <nav className="md:w-4/5 mx-auto">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">

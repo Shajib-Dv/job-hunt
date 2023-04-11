@@ -78,8 +78,8 @@ const Footer = () => {
           <div>
             <h3 className="mb-5 text-white text-xl font-semibold">Contact</h3>
             <ul className="grid gap-3 text-gray-400">
-              <li>524 Broadway , NYC</li>
-              <li>+1 777 - 978 - 5570</li>
+              <li>576 New York, CA</li>
+              <li>+1 888 - 978 - 9070</li>
             </ul>
           </div>
         </div>

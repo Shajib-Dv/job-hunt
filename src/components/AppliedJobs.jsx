@@ -32,21 +32,23 @@ const AppliedJobs = () => {
   return (
     <>
       <CommonPage>Applied job</CommonPage>
-      <div className="text-right my-6">
-        <select
-          onChange={(e) => getValue(e.target.value)}
-          className="select select-success w-full max-w-xs"
-        >
-          <option disabled selected>
-            Filter by
-          </option>
-          <option>Remote</option>
-          <option>Onsite</option>
-        </select>
-      </div>
-      <div>
-        {appliedJob &&
-          appliedJob.map((job) => <AppliedJobList key={job.id} job={job} />)}
+      <div className="md:w-4/5 mx-auto">
+        <div className="text-right my-6">
+          <select
+            onChange={(e) => getValue(e.target.value)}
+            className="select select-success w-full max-w-xs"
+          >
+            <option disabled selected>
+              Filter by
+            </option>
+            <option>Remote</option>
+            <option>Onsite</option>
+          </select>
+        </div>
+        <div>
+          {appliedJob &&
+            appliedJob.map((job) => <AppliedJobList key={job.id} job={job} />)}
+        </div>
       </div>
     </>
   );
