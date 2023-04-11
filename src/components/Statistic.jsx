@@ -5,14 +5,14 @@ import React from "react";
 import { ResponsiveContainer, PieChart, Pie, Legend, Tooltip } from "recharts";
 
 const data = [
-  { name: "Assignment 1", value: 60 },
-  { name: "Assignment 2", value: 59 },
-  { name: "Assignment 3", value: 60 },
-  { name: "Assignment 4", value: 60 },
-  { name: "Assignment 5", value: 60 },
-  { name: "Assignment 6", value: 60 },
-  { name: "Assignment 7", value: 57 },
-  { name: "Assignment 8", value: 60 },
+  { id: 1, name: "Assignment 1", value: 60 },
+  { id: 2, name: "Assignment 2", value: 59 },
+  { id: 3, name: "Assignment 3", value: 60 },
+  { id: 4, name: "Assignment 4", value: 60 },
+  { id: 5, name: "Assignment 5", value: 60 },
+  { id: 6, name: "Assignment 6", value: 60 },
+  { id: 7, name: "Assignment 7", value: 57 },
+  { id: 8, name: "Assignment 8", value: 60 },
 ];
 
 const Statistic = () => {

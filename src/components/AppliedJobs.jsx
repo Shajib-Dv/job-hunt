@@ -4,30 +4,34 @@ import React, { useEffect, useState } from "react";
 import { getAppliedJob } from "../utilities/fakeDB";
 import { useLoaderData } from "react-router-dom";
 import AppliedJobList from "./AppliedJobList";
+import CommonPage from "./CommonPage";
 
 const AppliedJobs = () => {
   const [appliedJob, setAppliedJob] = useState([]);
+  const [remaining, setRemaining] = useState([]);
   const data = useLoaderData();
   // console.log(data);
 
   useEffect(() => {
-    const storedJob = getAppliedJob();
     let remainingJob = [];
+    const storedJob = getAppliedJob();
     for (const id in storedJob) {
       const remaining = data && data.find((j) => j.id === id);
       remainingJob.push(remaining);
     }
+    setRemaining(remainingJob);
     setAppliedJob(remainingJob);
   }, []);
+
   // console.log(appliedJob);
   const getValue = (value) => {
     const filteredJob =
-      appliedJob && appliedJob.filter((j) => j.remoteOrOnsite === value);
+      remaining && remaining.filter((j) => j.remoteOrOnsite === value);
     setAppliedJob(filteredJob);
   };
   return (
     <>
-      <h3 className="text-5xl text-center font-bold my-20">Applied job</h3>
+      <CommonPage>Applied job</CommonPage>
       <div className="text-right my-6">
         <select
           onChange={(e) => getValue(e.target.value)}

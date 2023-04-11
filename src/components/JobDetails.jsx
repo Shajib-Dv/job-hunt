@@ -13,6 +13,7 @@ import {
   EnvelopeIcon,
 } from "@heroicons/react/24/solid";
 import { addToDb } from "../utilities/fakeDB";
+import CommonPage from "./CommonPage";
 
 const JobDetails = () => {
   const jobId = useParams();
@@ -43,20 +44,20 @@ const JobDetails = () => {
   };
   return (
     <>
-      <h2 className="text-5xl font-bold py-10 text-center">Job details</h2>
+      <CommonPage>Job Details</CommonPage>
       <div className="md:flex my-20">
         <div className="md:w-3/5 space-y-3 font-semibold px-4 md:px-10">
           <p>
-            <span className="font-bold">Description: </span>
+            <span className="font-bold text-2xl">Description: </span>
             {jobDescription}
           </p>
           <p>
-            <span className="font-bold">Job Responsibility: </span>
+            <span className="font-bold text-2xl">Job Responsibility: </span>
             {jobResponsibility}
           </p>
-          <p className="font-bold">Educational Requirements:</p>
+          <p className="font-bold text-2xl">Educational Requirements:</p>
           <p>{educationalRequirements}</p>
-          <p className="font-bold">Experiences:</p>
+          <p className="font-bold text-2xl">Experiences:</p>
           <p>{experiences}</p>
         </div>
         <div className="bg-[#F4F2FF] rounded p-4 space-y-2 text-black md:w-2/5">
