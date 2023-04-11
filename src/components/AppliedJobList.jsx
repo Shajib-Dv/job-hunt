@@ -17,7 +17,7 @@ const AppliedJobList = ({ job }) => {
   } = job;
   return (
     <>
-      <div className="card mt-4 lg:card-side bg-base-100 shadow-xl">
+      <div className="card mt-4 lg:card-side bg-base-100 p-4 shadow-xl">
         <figure className="md:w-40 md:h-40">
           <img src={companyLogo} alt="Album" />
         </figure>

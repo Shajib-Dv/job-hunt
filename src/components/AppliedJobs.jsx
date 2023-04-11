@@ -28,7 +28,7 @@ const AppliedJobs = () => {
   return (
     <>
       <h3 className="text-5xl text-center font-bold my-20">Applied job</h3>
-      <div className="text-right">
+      <div className="text-right my-6">
         <select
           onChange={(e) => getValue(e.target.value)}
           className="select select-success w-full max-w-xs"
